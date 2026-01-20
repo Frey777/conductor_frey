@@ -191,10 +191,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))            &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT)    &kp LC(DOWN_ARROW)
-&trans  &trans  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))        &kp LS(LC(NUMBER_6))            &kp LC(A)         &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(E)
-&trans  &trans  &kp LS(LC(N7))        &kp LS(LC(N8))        &kp LS(LC(N9))                  &kp C_PREVIOUS    &kp LG(LEFT)        &trans          &kp RG(RIGHT)    &kp C_NEXT
-&trans  &trans  &trans                &trans                &trans                &trans    &trans            &trans                              &kp C_BRI_DEC    &kp C_BRI_INC
+&kp LS(NUMBER_1)    &kp LS(NUMBER_2)    &kp LS(NUMBER_3)     &kp LS(NUMBER_4)     &kp LS(N5)                 &kp LS(NUMBER_6)       &kp LS(N7)             &kp LS(N8)        &kp LS(N9)           &kp LS(N0)
+&trans              &kp LA(LEFT_ARROW)  &kp UP_ARROW         &kp LA(RIGHT_ARROW)  &pwcpass                   &kp LC(MINUS)          &kp EQUAL              &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LC(BACKSLASH)
+&kp LEFT_SHIFT      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW      &GUID                      &kp LS(MINUS)          &kp LS(EQUAL)          &kp LEFT_BRACE    &kp RG(RIGHT_BRACE)  &kp LS(BACKSLASH)
+&kp LG(LEFT_ARROW)  &kp LG(UP_ARROW)    &kp LG(RIGHT_ARROW)  &kp LG(DOWN_ARROW)   &trans      &lt 6 ENTER    &JRAticketSmartsheet1  &JRAticketSmartsheet2                    &pwcpass             &kp LS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
