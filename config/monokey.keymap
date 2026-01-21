@@ -134,7 +134,6 @@
             bindings = <&kp TAB &kp LEFT_SHIFT &kp ENTER &kp TAB &kp ENTER>;
             label = "JRATICKETSMARTSHEET1";
         };
-
     };
 
     behaviors {
@@ -157,7 +156,7 @@
 &kp Q             &kp W         &kp E         &kp R                           &kp T                       &kp Y        &kp U                            &kp I      &kp O        &kp P
 &kp A             &kp S         &kp D         &kp F                           &kp G                       &kp H        &kp J                            &kp K      &kp L        &kp ENTER
 &kp Z             &kp X         &kp C         &kp V                           &kp B                       &kp N        &kp M                            &kp COMMA  &kp PERIOD   &kp MINUS
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mt INTERNATIONAL_5 LEFT_SHIFT  &lt 3 SPACE  &lt 2 ENTER    &lt 6 SPACE  &mt RIGHT_SHIFT INTERNATIONAL_4             &lt 7 SLASH  &mt LEFT_CONTROL LEFT_BRACKET
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_SHIFT INTERNATIONAL_5  &lt 3 SPACE  &lt 2 ENTER    &lt 6 SPACE  &mt RIGHT_SHIFT INTERNATIONAL_4             &lt 7 SLASH  &mt LEFT_CONTROL LEFT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -168,7 +167,7 @@
 &kp Q         &kp W             &kp E         &kp R                      &kp T                       &kp Y        &kp U                       &kp I      &kp O        &kp P
 &kp A         &kp S             &kp D         &kp F                      &kp G                       &kp H        &kp J                       &kp K      &kp L        &kp ENTER
 &kp Z         &kp X             &kp C         &kp V                      &kp B                       &kp N        &kp M                       &kp COMMA  &kp PERIOD   &kp MINUS
-&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LANGUAGE_2 LEFT_SHIFT  &lt 8 SPACE  &lt 2 ENTER    &lt 6 SPACE  &mt RIGHT_SHIFT LANGUAGE_1             &lt 7 SLASH  &mt LEFT_COMMAND AT_SIGN
+&kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 8 SPACE  &lt 2 ENTER    &lt 6 SPACE  &mt RIGHT_SHIFT LANGUAGE_1             &lt 7 SLASH  &mt LEFT_COMMAND AT_SIGN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
