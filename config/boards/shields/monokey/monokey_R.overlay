@@ -24,7 +24,7 @@
     excluded-positions = <
         16
         17
-        28
+        18
         29
         30
     >;
