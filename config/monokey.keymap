@@ -50,7 +50,7 @@
 
         kakuninnnyou {
             bindings = <&trans>;
-            key-positions = <29 28 27 26 30>;
+            key-positions = <30 16 17 18 19>;
         };
 
         shift {
@@ -196,8 +196,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &mkp MB1  &mo 5   &mkp MB2  &mkp MB3
+&trans  &trans  &trans  &trans  &trans            &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans    &trans
             >;
         };
