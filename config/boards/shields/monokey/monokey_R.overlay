@@ -77,7 +77,6 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
     scroll-layers = <5>;
-    snipe-layers = <3 8>;
 
     arrows {
         layers = <3 8>;
@@ -90,7 +89,7 @@
         tick = <10>;
         wait-ms = <5>;
         tap-ms = <5>;
-    };
+        };
     };
 };
 
