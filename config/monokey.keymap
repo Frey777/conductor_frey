@@ -141,6 +141,14 @@
             bindings = <&kp TAB &kp LEFT_SHIFT &kp ENTER &kp TAB &kp ENTER>;
             label = "JRATICKETSMARTSHEET1";
         };
+
+        toandroid: toandroid {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3>, <&macro_wait_time 200>, <&to 2>;
+
+            label = "TOANDROID";
+        };
     };
 
     behaviors {
