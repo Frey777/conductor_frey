@@ -21,9 +21,9 @@
 // 非マウスキーでAML解除
 &zip_temp_layer {
     excluded-positions = <
-        16
-        17
-        18
+        26
+        27
+        28
         20
         29
         30
@@ -31,7 +31,6 @@
     require-prior-idle-ms = <200>;
     // トラボ誤爆防止
 };
-
 
 / {
     trackball_listener {
